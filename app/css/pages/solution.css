@@ -1,0 +1,23 @@
+.section-waveBg {
+    background-image: url("/imgs/home/Wave.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.solutiontype-btn{
+    text-align: center;
+    padding: 15px 0px;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31px;
+    color: white;
+}
+.solutiontype-actBtn{
+    background-color: #3860D2 !important;
+}
+.solution-card{
+    background-image: url('/imgs/solution/solutionCardDB.png');
+    background-size: cover;
+}

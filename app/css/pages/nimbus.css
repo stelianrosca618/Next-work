@@ -1,0 +1,15 @@
+.nimbus-card{
+    background-image: url("/imgs/Nimbus/Nimbus_cardBG.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 600px;
+    position: relative;
+    
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+}
+.nimbus-logo{
+    height: 300px;
+}

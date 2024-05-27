@@ -1,0 +1,123 @@
+@media (max-width: 500px){
+    body {
+        font-size: 16px !important; 
+        line-height: 24px !important;
+    }
+    h1{
+        font-size: 32px !important;
+        font-weight: 700;
+        line-height: 41.6px !important;
+    }
+    h2{
+        font-size: 30px  !important;
+        font-weight: 700;
+        line-height: 41.6px !important;
+    }
+    /*  */
+    .navigationGroup{
+        margin: auto !important;
+    }
+
+    .scrollup-btn{
+        bottom: 10rem !important;
+        right: 2rem !important;
+    }
+    .hero-play-card{
+        border-radius: 0px !important;
+        height: 300px !important;
+        background-color: #6e8de5;
+      }
+    .hero-play-card-text{
+        font-size: 10.72px !important;
+        line-height: 15px !important;
+    }
+    .hero-play-card-logo {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        top: 0;
+        transform-origin: center;
+        height: 100%;
+        padding: 4rem;
+    }
+    .wave-background {
+        background: none !important;
+    }
+    .mobile-hereo-play-btn{
+        position: absolute;
+        display: block !important;
+    }
+    .hero-about-us-section{
+        height: 200px !important;
+    }
+    .about-us-section-md-text{
+        font-size: 25px !important;
+        font-weight: 500;
+        line-height: 32.5px !important;
+    }
+    .forger-carousel-width{
+        /* width: max-content; */
+        padding-left: 0 !important;
+        width: 100%;
+    }
+    .forgerCarousel-dot{
+        width: 12px;
+    height: 12px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 50%;
+    }
+    .blogSubscibe-background{
+        background-image: none !important;
+    }
+    .dataforger-card{
+        height: 300px;
+    }
+    .dataforger-logo{
+        height: 100px !important;
+    }
+    .nimbus-card{
+        height: 300px;
+    }
+    .nimbus-logo{
+        height: 100px !important;
+    }
+    .wave-bg{
+        background: none !important;
+    }
+    .howitworks-btn{
+        padding: 12px !important;
+        border: 1px solid white;
+        border-radius: 10px;
+        font-size: 24px !important;
+        font-weight: 700;
+        line-height: 31.75px !important;
+    }
+    .howitwork-txt-effect{
+        font-size: 28px !important;
+        font-weight: 600 !important;
+        line-height: 36px !important;
+    }
+    .howitwork-play-card{
+        border-radius: 0;
+        height: 300px !important;
+        background-color: #6E8DE5 !important;
+    }
+    .loadlens-card{
+        height: 300px !important;
+    }
+    .dataSet-bg{
+        background: none !important;
+    }
+    h2.blogSubscribe-head{
+        font-size: 32px !important;
+        font-weight: 500;
+        line-height: 41.6px;
+    }
+}
+@media (max-width: 1024px){
+    .dataSet-bg{
+        background: none !important;
+    }
+    
+}

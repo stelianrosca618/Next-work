@@ -1,0 +1,159 @@
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes spinRevert {
+    from {
+      transform: rotate(360deg);
+    }
+    to {
+      transform: rotate(0deg);
+    }
+  }
+.scrolldown{
+    position: absolute;
+    left: 80vw;
+    top: 10vh;
+    width: 103px;
+    height: 103px;
+    padding: 25px;
+    border-radius: 50%;
+    background-color: #3860D2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.scrolldown-outer {
+    width: 145px;
+    height: 145px;
+    background-image: url("/imgs/Dataforger/Elips.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -21px;
+    top: -21px;
+    transform-origin: center;
+    animation: spin 3s linear infinite;
+}
+.scrolldown-inner{
+    width: 125px;
+    height: 125px;
+    background-image: url("/imgs/Dataforger/Elips.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -11px;
+    top: -11px;
+    transform-origin: center;
+    animation: spinRevert 4s linear infinite;
+}
+.dataforger-card{
+    background-image: url("/imgs/Dataforger/CardBg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 600px;
+    position: relative;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+}
+
+.dataforger-overload{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.playbtn-content{position: absolute;
+    left: 30px;
+    bottom: 35px;}
+.dataforger-logo{
+    height: 200px;
+}
+.dataforgerVideo-play{
+    position: absolute;
+}
+.forger-carousel-width{
+    /* width: max-content; */
+    padding-left: 2rem;
+    width: 100vw;
+}
+.forger-carousel-group{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 18rem;
+    margin-top: 3rem
+}
+.carousel-btn{
+    border: 1px solid;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #4e4b4b4a;
+    width: 60px;
+    height: 60px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+.forger-dots-list{
+    left: revert !important;
+    right: revert !important;
+    width: 50%;
+    bottom: 75px !important;
+}
+.forgerCarousel-swip>.swiper-pagination{
+  width: 50% !important;
+  text-align: start !important;
+  display: flex;
+}
+.forgerCarousel-swip>.swiper-pagination-bullets.swiper-pagination-horizontal{
+    margin-top: 80px !important;
+}
+.forgerSwip-navigations{
+    margin-left: calc(50% + 70px);
+    margin-top: -45px;
+}
+.forgerCarousel-item{
+  width: fit-content !important;
+  padding: 10px;
+}
+.forgerCarousel-swip>.swiper-pagination>.forgerCarousel-dot.swiper-pagination-bullet-active{
+    background-color: #3860D2 !important;
+}
+.forgerCarousel-swip>.swiper-pagination>.forgerCarousel-dot{
+    width: 250px !important;
+    height: 5px !important;
+    background-color: #fff !important;
+    opacity: 1 !important;
+}
+.forger-item-card{
+    width: 380px;
+    height: 360px;
+    border: 1px solid #3860D2;
+    border-radius: 10px;
+    padding: 15px;
+    margin: auto;
+}
+
+.power-text{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+}
+.lineWave_bg{
+    background-image: url('/imgs/Dataforger/Line_3.png');
+    background-size: cover;
+    background-position: center;
+}

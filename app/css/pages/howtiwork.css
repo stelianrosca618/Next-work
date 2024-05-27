@@ -1,0 +1,41 @@
+.howitworks-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 37px;
+    color: white;
+}
+.howitWork-actBtn{
+    background-color: #3860D2 !important;
+}
+.howitwork-stepEffect{
+    background: -webkit-linear-gradient(0deg, #6E8DE5, #3860D2, #E8FCAF, #FFFFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700 !important;
+}
+.howitwork-txt-effect{
+    background: linear-gradient(89deg, #3861d2ad, transparent);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    border-radius: 50px;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 52px;
+}
+.howitwork-play-card{
+    border-radius: 30px;
+    height: 600px;
+    background-color: #3860D2;
+  }
+.howitwork-cardTxt{
+    font-size: 93.6px;
+    font-weight: 700;
+    line-height: 123px;
+}
